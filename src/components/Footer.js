@@ -1,7 +1,7 @@
 
 function Footer() {
   return (
-      <footer className="page-footer">
+      <footer className="page-footer"  style={{background:'rgb(45 32 19)'}}>
           <div className="container">
             <div className="row">
               <div className="col l6 s12">
@@ -21,8 +21,8 @@ function Footer() {
           </div>
           <div className="footer-copyright">
             <div className="container">
-          © 2014 Copyright Text
-            <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
+          © 2021 Copyright Text
+            <a className="grey-text text-lighten-4 right" href="/">More Links</a>
             </div>
           </div>
         </footer> 

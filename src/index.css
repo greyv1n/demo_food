@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background: #2d2013;
+  color: #fff;
+
 }
 
 code {
@@ -30,10 +34,12 @@ code {
 .card {
   display: flex;
   flex-direction: column;
+  background: #2d2013;
+  color: #fff;
 }
 
 .card:hover {
-  box-shadow: 0 0 20px rgb(0 0 0 / 15%);
+  box-shadow: 0 0 20px rgb(239 233 233 / 15%);
   transition: box-shadow .2s linear, transform .2s linear;
 }
 
